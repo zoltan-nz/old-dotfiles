@@ -164,3 +164,8 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+
+  name = Zoltan
+  email = zdebre@gmail.com

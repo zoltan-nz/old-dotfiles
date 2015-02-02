@@ -12,3 +12,26 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+*~
+.env
+.DS_Store
+.idea
+.ruby-version
+.ruby-gemset
+.todo
+todo.md
+NERD_tree*
+.buildpath
+.project
+.pryrc
+.file_for_ctags.dir
+tags
+elasticsearch.log
+.gradletasknamecache
+.rbenv-version
+log_formatter.rb
+.tags
+.tags_sorted_by_file
+Procfile
+npm-debug.log
