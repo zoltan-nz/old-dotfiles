@@ -79,6 +79,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [ (uname) != "Darwin" ]; then
-  xinput --set-prop 8 "Device Accel Constant Deceleration" 1.5
-fi
+# xinput --set-prop 8 "Device Accel Constant Deceleration" 1.5
