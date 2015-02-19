@@ -80,3 +80,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # xinput --set-prop 8 "Device Accel Constant Deceleration" 1.5
+
+export PATH="/usr/local/Cellar/php55/5.5.21/bin:$PATH"
