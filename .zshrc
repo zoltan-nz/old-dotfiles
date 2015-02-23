@@ -82,3 +82,15 @@ source $ZSH/oh-my-zsh.sh
 # xinput --set-prop 8 "Device Accel Constant Deceleration" 1.5
 
 export PATH="$HOME/bin:/usr/local/Cellar/php55/5.5.21/bin:$PATH"
+
+# NPM packages in homedir
+NPM_PACKAGES="$HOME/.npm-packages"
+
+# Tell our environment about user-installed node tools
+PATH="$NPM_PACKAGES/bin:$PATH"
+# Unset manpath so we can inherit from /etc/manpath via the `manpath` command
+unset MANPATH  # delete if you already modified MANPATH elsewhere in your configuration
+MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+
+# Tell Node about these packages
+NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
