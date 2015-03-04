@@ -79,23 +79,24 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Mouse acceleration settings. Uncomment on Linux.
 # xinput --set-prop 8 "Device Accel Constant Deceleration" 1.5
 
 export PATH="$HOME/bin:/usr/local/Cellar/php55/5.5.21/bin:$PATH"
 
 # NPM packages in homedir
-export NPM_PACKAGES="$HOME/.npm-packages"
+# export NPM_PACKAGES="$HOME/.npm-packages"
 
 # Tell our environment about user-installed node tools
-export PATH="$NPM_PACKAGES/bin:$PATH"
+# export PATH="$NPM_PACKAGES/bin:$PATH"
 # Unset manpath so we can inherit from /etc/manpath via the `manpath` command
-unset MANPATH  # delete if you already modified MANPATH elsewhere in your configuration
-export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+# unset MANPATH  # delete if you already modified MANPATH elsewhere in your configuration
+# export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 # Tell Node about these packages
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+# export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 
 # Install nvm: curl https://raw.githubusercontent.com/creationix/nvm/v0.23.3/install.sh | bash
-# source ~/.nvm/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# export PATH="$HOME/.nvm:$PATH"
