@@ -96,4 +96,6 @@ export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 
 # Install nvm: curl https://raw.githubusercontent.com/creationix/nvm/v0.23.3/install.sh | bash
-source ~/.nvm/nvm.sh
+# source ~/.nvm/nvm.sh
+
+# export PATH="$HOME/.nvm:$PATH"
