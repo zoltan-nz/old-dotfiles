@@ -85,10 +85,10 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/bin:/usr/local/Cellar/php55/5.5.21/bin:$PATH"
 
 # NPM packages in homedir
-# export NPM_PACKAGES="$HOME/.npm-packages"
+export NPM_PACKAGES="$HOME/.npm-packages"
 
 # Tell our environment about user-installed node tools
-# export PATH="$NPM_PACKAGES/bin:$PATH"
+export PATH="$NPM_PACKAGES/bin:$PATH"
 # Unset manpath so we can inherit from /etc/manpath via the `manpath` command
 # unset MANPATH  # delete if you already modified MANPATH elsewhere in your configuration
 # export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"

@@ -35,3 +35,4 @@ log_formatter.rb
 .tags_sorted_by_file
 Procfile
 npm-debug.log
+Guardfile
