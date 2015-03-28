@@ -2,6 +2,8 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
+curl https://raw.githubusercontent.com/creationix/nvm/v0.23.3/install.sh | bash;
+
 git pull origin master;
 
 function doIt() {

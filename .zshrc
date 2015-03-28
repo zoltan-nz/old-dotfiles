@@ -82,7 +82,8 @@ source $ZSH/oh-my-zsh.sh
 # Mouse acceleration settings. Uncomment on Linux.
 # xinput --set-prop 8 "Device Accel Constant Deceleration" 1.5
 
-export PATH="$HOME/bin:/usr/local/Cellar/php55/5.5.21/bin:$PATH"
+# Only on mac
+# export PATH="$HOME/bin:/usr/local/Cellar/php55/5.5.21/bin:$PATH"
 
 # NPM packages in homedir
 export NPM_PACKAGES="$HOME/.npm-packages"
